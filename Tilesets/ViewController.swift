@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     }
 
     private func configureMapView() {
+        
+        
         mapView.delegate = self
         mapView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
     }
